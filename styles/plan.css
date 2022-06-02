@@ -1,0 +1,53 @@
+.plan{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+}
+
+.plan__title {
+    margin-bottom: 30px;
+    font-size: 80px;
+    line-height: 77px;
+    max-width: 523px;
+}
+
+.plan__button{
+    width: 346px;
+    height: 65px;
+}
+@media screen and (max-width: 1400px) {
+    .plan {
+        gap: 30px;
+    }
+
+    .plan__button {
+        width: 40%;
+    }
+
+    .plan__title {
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 47px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .plan {
+        flex-direction: column;
+    }
+
+    .plan__button {
+        width: 60%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .plan__button {
+        min-width: 200px;
+        width: 100%;
+    }
+}

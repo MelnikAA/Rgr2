@@ -1,0 +1,13 @@
+.members{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin: 0 -5px;
+}
+
+.members__img{
+    margin: 0 5px;
+}

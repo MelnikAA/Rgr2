@@ -1,0 +1,132 @@
+.advantage{
+display: flex;
+padding: 40px;
+justify-content: center;
+align-items: center;
+gap: 74px;
+}
+
+.advantage__wrapper{
+    max-width: 460px;
+}
+.advantage__card{
+    text-align: center;
+    vertical-align: middle;
+    max-width: 307px;
+}
+
+.advantage__card__img {
+    width: 151px;
+    margin-left: 20px;
+    display: inline-block
+}
+
+.advantage__card__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+}
+
+.advantage__card__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #696871;
+    text-align: center;
+}
+.advantage__pricing__img {
+    width: 151px;
+}
+
+.advantage__pricing{
+    max-width: 307px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.advantage__pricing__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.advantage__pricing__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #696871;
+    text-align: center;
+}
+
+.advantage__retention__img {
+    width: 151px;
+    
+    display: inline-block
+
+}
+
+.advantage__retention{
+    text-align: center;
+    vertical-align: middle;
+    max-width: 307px;
+}
+
+.advantage__retention__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    
+}
+
+.advantage__retention__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #696871;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .advantage {
+        gap: 30px;
+    }
+
+    .advantage__img {
+        width: 40%;
+    }
+
+    .advantage__title {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 47px;
+    }
+    
+    .advantage__text {
+        font-size: 12px;
+        line-height: 20px;
+        color: #696871;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .advantage {
+        flex-direction: column;
+    }
+
+    .advantage__img {
+        width: 60%;
+        order: 1;
+    }
+
+    .advantage__wrapper {
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .advantage__img {
+        min-width: 200px;
+        width: 100%;
+    }
+}

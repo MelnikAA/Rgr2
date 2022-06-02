@@ -1,0 +1,150 @@
+.sub{
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    
+}
+
+.sub__wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.sub__starter{
+    text-align: center;
+    vertical-align: middle;
+    width: 330px;
+    height: 441px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+.sub__starter__name{
+    padding-top: 34px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(105, 104, 113);
+}
+
+.sub__starter__price{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(29, 41, 63);
+    margin: 22px 28px;
+}
+
+.sub__starter__info{
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(105, 104, 113);
+    margin-top: 28px;
+}
+
+.sub__starter__get-started{
+    width: 285px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #5454D4;
+    margin-top: 36px;
+}
+.sub__premium{
+    text-align: center;
+    vertical-align: middle;
+    width: 376px;
+    height: 473px;
+    background-color: #FF7143;
+    border-radius: 10px;
+}
+
+.sub__premium__name{
+    padding-top: 34px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sub__premium__price{
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 22px 28px;
+}
+
+.sub__premium__price__small{
+    font-size: 25px;
+}
+
+.sub__premium__info{
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.sub__premium__get-started{
+    width: 285px;
+    height: 60px;
+    background: #9F3919;
+    border: 1px solid #9F3919;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 36px;
+}
+
+.sub__enterprise{
+    text-align: center;
+    vertical-align: middle;
+    width: 330px;
+    height: 441px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+
+.sub__enterprise__name{
+    padding-top: 34px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(105, 104, 113);
+}
+
+.sub__enterprise__price{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(29, 41, 63);
+    margin: 22px 28px;
+}
+
+.sub__enterprise__price__small{
+    font-size: 25px;
+}
+
+.sub__enterprise__info{
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(105, 104, 113);
+    margin-top: 28px;
+}
+
+.sub__enterprise__get-started{
+    width: 285px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #5454D4;
+    margin-top: 36px;
+}
+
